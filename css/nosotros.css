@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body header nav div img.logotipo{
+    width: 50px;
+    margin: 10px;
+}
+
+body header nav div a.letras_logo{
+    width: 10px;
+    text-decoration: none;
+    color: rgb(220, 53, 69) ;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #571111;
+    font-size: 25px;
+}
+
+footer div a.ubicacion {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
+}
+
+footer div div img{
+    border-radius: 50px;
+}
+
+.nav-link:hover{
+    transform: scale(0.95);
+    background-color: rgb(187, 21, 37);
+    border: rgb(187, 21, 37);    
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body header nav div img.logotipo {
+    width: 50px;
+    margin: 10px;
+}
+
+body header nav div a.letras_logo {
+    width: 10px;
+    text-decoration: none;
+    color: #571111;
+}
+
+footer div a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer div a.ubicacion {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+main section div div div picture img {
+    padding: 0;
+}
+
+div.card-footer {
+    font-size: 25px;
+    background-color: #facdcd;
+}
+
+.row {
+    background-image: url('../img/fondo_rojo_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.imagen:hover {
+    transform: scale(1.2);
+}
+
+footer div div img {
+    border-radius: 50px;
+}
+
+.nav-link:hover{
+    transform: scale(0.95);
+    background-color: rgb(187, 21, 37);
+    border: rgb(187, 21, 37);    
+}
+
+.card:hover{
+    transform: scale(0.999);
+    border: dashed 5px rgb(187, 21, 37);
+}
+
+@media screen and (min-width: 1440px) {
+    .row {
+        background-image: url('../img/fondo_rojo_2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px;
+        padding-bottom: 125px;
+        border-radius: 10px;
+    }
+}
